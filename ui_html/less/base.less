@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+// Насыщеный синий (цвет приложения)
+@color-coocodo : #d2d461;
+// Светлный эелтый
+@color-yellow : #f9f3c4;
+// Цвет рамки (светло-голубой)
+@color-gray : #808080;
+// Серый цвет (используется для текста)
+@color-light-gray : #e5e5e5;
+// Цвет bg окон (светло-серый / почти белый)
+@color-bg : #fdfdfd;
+// Директория (использовать, как @{dir})
+@dir-image : "/img/";
+
+
+// Обнуление настроек тегов (практика показала, что у некоторых элементов они не сброшены)
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	vertical-align:baseline;
+}
+
+// ОСНОВНЫЕ НАСТРОЙКИ СТРАНИЦ 
+
+html {
+	width:100%;
+	height:100%;
+
+	* {
+		font-family:"Helvetica Heue",Arial;
+		color:black;
+		font-size:11px;
+		line-height:1.4;
+		.select-success();
+	}
+
+	body {
+		height:100%;
+		background-color:@color-bg;
+		overflow: hidden;
+	}
+}
+
+input, textarea, select { .outline-style(0); }
+
+
+
+
+
+// END

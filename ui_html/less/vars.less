@@ -1,0 +1,93 @@
+
+// Закругляющиеся уголки
+.border-radius (@radius) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
+// Перенос текста
+.wrap () {
+	text-wrap: wrap;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	word-wrap: break-word;
+}
+
+// Абсолютная позиция
+.p-absolute (@top: 0; @right: auto; @bottom: auto; @left: auto) {
+	position: absolute;
+	top: @top;
+	left: @left;
+	bottom: @bottom;
+	right: @right;
+}
+
+// Webkit Scroll
+.scrollstyle (@width; @height; @color-track; @color-thumb; @color-thumb-hover) {
+	// Скроллбар (размеры)
+	::-webkit-scrollbar {
+	    width: @width;
+	    height: @height;
+	}
+	// Пустой скролл-бар
+	::-webkit-scrollbar-track {  
+	    background-color: @color-track;
+	}
+	// Полоса прокрутки
+	::-webkit-scrollbar-thumb {  
+	    background-color: @color-thumb;  
+	}
+	// Полоса прокрутки (hover)
+	::-webkit-scrollbar-thumb:hover {  
+	    background-color: @color-thumb-hover;  
+	}
+}
+
+// Webkit выделения / касания
+.select-success (@success : none) {
+	-webkit-touch-callout:@success;
+	-webkit-user-select:@success;
+}
+
+// Box Sizing
+.box-sizing (@param : border-box) {
+	-webkit-box-sizing:@param;
+	-moz-box-sizing:@param;
+	box-sizing:@param;
+}
+
+// Border Radius
+.border-radius (@param : 3px) {
+	-webkit-border-radius: @param;
+	border-radius: @param;
+}
+
+// Outline Style (for Selected elements)
+.outline-style (@width : 0) {
+	&:focus {outline-width: @width;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// END
