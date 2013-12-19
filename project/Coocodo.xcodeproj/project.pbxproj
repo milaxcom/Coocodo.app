@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1FE92C18610078001248A6 /* close_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE91A18610078001248A6 /* close_hover.png */; };
+		BC1FE92D18610078001248A6 /* close_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE91B18610078001248A6 /* close_hover@2x.png */; };
+		BC1FE92E18610078001248A6 /* close_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE91C18610078001248A6 /* close_regular.png */; };
+		BC1FE92F18610078001248A6 /* close_regular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE91D18610078001248A6 /* close_regular@2x.png */; };
+		BC1FE93018610078001248A6 /* fullscreen_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE91E18610078001248A6 /* fullscreen_hover.png */; };
+		BC1FE93118610078001248A6 /* fullscreen_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE91F18610078001248A6 /* fullscreen_hover@2x.png */; };
+		BC1FE93218610078001248A6 /* fullscreen_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE92018610078001248A6 /* fullscreen_regular.png */; };
+		BC1FE93318610078001248A6 /* fullscreen_regular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE92118610078001248A6 /* fullscreen_regular@2x.png */; };
+		BC1FE93418610078001248A6 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1FE92318610078001248A6 /* INAppStoreWindow.m */; };
+		BC1FE93518610078001248A6 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1FE92518610078001248A6 /* INWindowButton.m */; };
+		BC1FE93618610078001248A6 /* MXWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1FE92718610078001248A6 /* MXWindow.m */; };
+		BC1FE93718610078001248A6 /* rollup_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE92818610078001248A6 /* rollup_hover.png */; };
+		BC1FE93818610078001248A6 /* rollup_hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE92918610078001248A6 /* rollup_hover@2x.png */; };
+		BC1FE93918610078001248A6 /* rollup_regular.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE92A18610078001248A6 /* rollup_regular.png */; };
+		BC1FE93A18610078001248A6 /* rollup_regular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1FE92B18610078001248A6 /* rollup_regular@2x.png */; };
+		BC32D16B184617120048B6D6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC32D16A184617120048B6D6 /* Cocoa.framework */; };
+		BC32D177184617120048B6D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC32D176184617120048B6D6 /* main.m */; };
+		BC32D17B184617120048B6D6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC32D179184617120048B6D6 /* Credits.rtf */; };
+		BC32D17E184617120048B6D6 /* MXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC32D17D184617120048B6D6 /* MXAppDelegate.m */; };
+		BC4B049B1861725C0069D3CE /* css in Resources */ = {isa = PBXBuildFile; fileRef = BC4B04951861725C0069D3CE /* css */; };
+		BC4B049C1861725C0069D3CE /* get.html in Resources */ = {isa = PBXBuildFile; fileRef = BC4B04961861725C0069D3CE /* get.html */; };
+		BC4B049D1861725C0069D3CE /* img in Resources */ = {isa = PBXBuildFile; fileRef = BC4B04971861725C0069D3CE /* img */; };
+		BC4B049E1861725C0069D3CE /* js in Resources */ = {isa = PBXBuildFile; fileRef = BC4B04981861725C0069D3CE /* js */; };
+		BC4B049F1861725C0069D3CE /* less in Resources */ = {isa = PBXBuildFile; fileRef = BC4B04991861725C0069D3CE /* less */; };
+		BC4B04A01861725C0069D3CE /* webview.html in Resources */ = {isa = PBXBuildFile; fileRef = BC4B049A1861725C0069D3CE /* webview.html */; };
+		BC4B04AC1861756F0069D3CE /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4B04AA1861756F0069D3CE /* refresh.png */; };
+		BC4B04AD1861756F0069D3CE /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4B04AB1861756F0069D3CE /* refresh@2x.png */; };
+		BC4B04B018617B140069D3CE /* MXHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4B04AF18617B140069D3CE /* MXHandler.m */; };
+		BC4B04B318617CDD0069D3CE /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4B04B218617CDD0069D3CE /* NSString+HTML.m */; };
+		BC672662184B1EBC00937C04 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC672661184B1EBC00937C04 /* WebKit.framework */; };
+		BC71FD7818616B3E00AA7E88 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BC71FD7718616B3E00AA7E88 /* icon.icns */; };
+		BC71FD7C1861703700AA7E88 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC32D17F184617120048B6D6 /* MainMenu.xib */; };
+		BCC86A831862960B009D37B9 /* MXCoocodoGetClientWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC86A821862960B009D37B9 /* MXCoocodoGetClientWindow.m */; };
+		BCCFBA95186199FE00C049E1 /* MXWebViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFBA94186199FE00C049E1 /* MXWebViewWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC1FE91A18610078001248A6 /* close_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close_hover.png; path = Coocodo/close_hover.png; sourceTree = SOURCE_ROOT; };
+		BC1FE91B18610078001248A6 /* close_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close_hover@2x.png"; path = "Coocodo/close_hover@2x.png"; sourceTree = SOURCE_ROOT; };
+		BC1FE91C18610078001248A6 /* close_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close_regular.png; path = Coocodo/close_regular.png; sourceTree = SOURCE_ROOT; };
+		BC1FE91D18610078001248A6 /* close_regular@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "close_regular@2x.png"; path = "Coocodo/close_regular@2x.png"; sourceTree = SOURCE_ROOT; };
+		BC1FE91E18610078001248A6 /* fullscreen_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fullscreen_hover.png; path = Coocodo/fullscreen_hover.png; sourceTree = SOURCE_ROOT; };
+		BC1FE91F18610078001248A6 /* fullscreen_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fullscreen_hover@2x.png"; path = "Coocodo/fullscreen_hover@2x.png"; sourceTree = SOURCE_ROOT; };
+		BC1FE92018610078001248A6 /* fullscreen_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fullscreen_regular.png; path = Coocodo/fullscreen_regular.png; sourceTree = SOURCE_ROOT; };
+		BC1FE92118610078001248A6 /* fullscreen_regular@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fullscreen_regular@2x.png"; path = "Coocodo/fullscreen_regular@2x.png"; sourceTree = SOURCE_ROOT; };
+		BC1FE92218610078001248A6 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INAppStoreWindow.h; path = Coocodo/INAppStoreWindow.h; sourceTree = SOURCE_ROOT; };
+		BC1FE92318610078001248A6 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INAppStoreWindow.m; path = Coocodo/INAppStoreWindow.m; sourceTree = SOURCE_ROOT; };
+		BC1FE92418610078001248A6 /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INWindowButton.h; path = Coocodo/INWindowButton.h; sourceTree = SOURCE_ROOT; };
+		BC1FE92518610078001248A6 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INWindowButton.m; path = Coocodo/INWindowButton.m; sourceTree = SOURCE_ROOT; };
+		BC1FE92618610078001248A6 /* MXWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXWindow.h; path = Coocodo/MXWindow.h; sourceTree = SOURCE_ROOT; };
+		BC1FE92718610078001248A6 /* MXWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXWindow.m; path = Coocodo/MXWindow.m; sourceTree = SOURCE_ROOT; };
+		BC1FE92818610078001248A6 /* rollup_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rollup_hover.png; path = Coocodo/rollup_hover.png; sourceTree = SOURCE_ROOT; };
+		BC1FE92918610078001248A6 /* rollup_hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rollup_hover@2x.png"; path = "Coocodo/rollup_hover@2x.png"; sourceTree = SOURCE_ROOT; };
+		BC1FE92A18610078001248A6 /* rollup_regular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rollup_regular.png; path = Coocodo/rollup_regular.png; sourceTree = SOURCE_ROOT; };
+		BC1FE92B18610078001248A6 /* rollup_regular@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rollup_regular@2x.png"; path = "Coocodo/rollup_regular@2x.png"; sourceTree = SOURCE_ROOT; };
+		BC32D167184617120048B6D6 /* Coocodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coocodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC32D16A184617120048B6D6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BC32D16D184617120048B6D6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BC32D16E184617120048B6D6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BC32D16F184617120048B6D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC32D174184617120048B6D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC32D176184617120048B6D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Coocodo/main.m; sourceTree = SOURCE_ROOT; };
+		BC32D17A184617120048B6D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BC32D17C184617120048B6D6 /* MXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MXAppDelegate.h; path = Coocodo/MXAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		BC32D17D184617120048B6D6 /* MXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MXAppDelegate.m; path = Coocodo/MXAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		BC32D180184617120048B6D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BC32D189184617120048B6D6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC4B04951861725C0069D3CE /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = Coocodo/css; sourceTree = SOURCE_ROOT; };
+		BC4B04961861725C0069D3CE /* get.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = get.html; path = Coocodo/get.html; sourceTree = SOURCE_ROOT; };
+		BC4B04971861725C0069D3CE /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = Coocodo/img; sourceTree = SOURCE_ROOT; };
+		BC4B04981861725C0069D3CE /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = Coocodo/js; sourceTree = SOURCE_ROOT; };
+		BC4B04991861725C0069D3CE /* less */ = {isa = PBXFileReference; lastKnownFileType = folder; name = less; path = Coocodo/less; sourceTree = SOURCE_ROOT; };
+		BC4B049A1861725C0069D3CE /* webview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = webview.html; path = Coocodo/webview.html; sourceTree = SOURCE_ROOT; };
+		BC4B04AA1861756F0069D3CE /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = Coocodo/refresh.png; sourceTree = SOURCE_ROOT; };
+		BC4B04AB1861756F0069D3CE /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "refresh@2x.png"; path = "Coocodo/refresh@2x.png"; sourceTree = SOURCE_ROOT; };
+		BC4B04AE18617B140069D3CE /* MXHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXHandler.h; path = Coocodo/MXHandler.h; sourceTree = SOURCE_ROOT; };
+		BC4B04AF18617B140069D3CE /* MXHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXHandler.m; path = Coocodo/MXHandler.m; sourceTree = SOURCE_ROOT; };
+		BC4B04B118617CDD0069D3CE /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "Coocodo/NSString+HTML.h"; sourceTree = SOURCE_ROOT; };
+		BC4B04B218617CDD0069D3CE /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "Coocodo/NSString+HTML.m"; sourceTree = SOURCE_ROOT; };
+		BC672661184B1EBC00937C04 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BC71FD7718616B3E00AA7E88 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		BC71FD7918616C0200AA7E88 /* Coocodo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Coocodo-Info.plist"; path = "Coocodo/Coocodo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BCC86A811862960B009D37B9 /* MXCoocodoGetClientWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXCoocodoGetClientWindow.h; path = Coocodo/MXCoocodoGetClientWindow.h; sourceTree = SOURCE_ROOT; };
+		BCC86A821862960B009D37B9 /* MXCoocodoGetClientWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXCoocodoGetClientWindow.m; path = Coocodo/MXCoocodoGetClientWindow.m; sourceTree = SOURCE_ROOT; };
+		BCCFBA93186199FE00C049E1 /* MXWebViewWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MXWebViewWindow.h; path = Coocodo/MXWebViewWindow.h; sourceTree = SOURCE_ROOT; };
+		BCCFBA94186199FE00C049E1 /* MXWebViewWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MXWebViewWindow.m; path = Coocodo/MXWebViewWindow.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC32D164184617120048B6D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC672662184B1EBC00937C04 /* WebKit.framework in Frameworks */,
+				BC32D16B184617120048B6D6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1FE93B1861007D001248A6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BC4B04AA1861756F0069D3CE /* refresh.png */,
+				BC4B04AB1861756F0069D3CE /* refresh@2x.png */,
+				BC1FE91A18610078001248A6 /* close_hover.png */,
+				BC1FE91B18610078001248A6 /* close_hover@2x.png */,
+				BC1FE91C18610078001248A6 /* close_regular.png */,
+				BC1FE91D18610078001248A6 /* close_regular@2x.png */,
+				BC1FE91E18610078001248A6 /* fullscreen_hover.png */,
+				BC1FE91F18610078001248A6 /* fullscreen_hover@2x.png */,
+				BC1FE92018610078001248A6 /* fullscreen_regular.png */,
+				BC1FE92118610078001248A6 /* fullscreen_regular@2x.png */,
+				BC1FE92818610078001248A6 /* rollup_hover.png */,
+				BC1FE92918610078001248A6 /* rollup_hover@2x.png */,
+				BC1FE92A18610078001248A6 /* rollup_regular.png */,
+				BC1FE92B18610078001248A6 /* rollup_regular@2x.png */,
+			);
+			name = Images;
+			path = Coocodo/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC32D15E184617120048B6D6 = {
+			isa = PBXGroup;
+			children = (
+				BC71FD7718616B3E00AA7E88 /* icon.icns */,
+				BC32D170184617120048B6D6 /* chtml */,
+				BC32D169184617120048B6D6 /* Frameworks */,
+				BC32D168184617120048B6D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC32D168184617120048B6D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC32D167184617120048B6D6 /* Coocodo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC32D169184617120048B6D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC672661184B1EBC00937C04 /* WebKit.framework */,
+				BC32D16A184617120048B6D6 /* Cocoa.framework */,
+				BC32D189184617120048B6D6 /* XCTest.framework */,
+				BC32D16C184617120048B6D6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC32D16C184617120048B6D6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC32D16D184617120048B6D6 /* AppKit.framework */,
+				BC32D16E184617120048B6D6 /* CoreData.framework */,
+				BC32D16F184617120048B6D6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BC32D170184617120048B6D6 /* chtml */ = {
+			isa = PBXGroup;
+			children = (
+				BC32D17F184617120048B6D6 /* MainMenu.xib */,
+				BC32D17C184617120048B6D6 /* MXAppDelegate.h */,
+				BC32D17D184617120048B6D6 /* MXAppDelegate.m */,
+				BC1FE92218610078001248A6 /* INAppStoreWindow.h */,
+				BC1FE92318610078001248A6 /* INAppStoreWindow.m */,
+				BC1FE92418610078001248A6 /* INWindowButton.h */,
+				BC1FE92518610078001248A6 /* INWindowButton.m */,
+				BC1FE92618610078001248A6 /* MXWindow.h */,
+				BC1FE92718610078001248A6 /* MXWindow.m */,
+				BC4B04AE18617B140069D3CE /* MXHandler.h */,
+				BC4B04AF18617B140069D3CE /* MXHandler.m */,
+				BCC86A811862960B009D37B9 /* MXCoocodoGetClientWindow.h */,
+				BCC86A821862960B009D37B9 /* MXCoocodoGetClientWindow.m */,
+				BCCFBA93186199FE00C049E1 /* MXWebViewWindow.h */,
+				BCCFBA94186199FE00C049E1 /* MXWebViewWindow.m */,
+				BC4B04B118617CDD0069D3CE /* NSString+HTML.h */,
+				BC4B04B218617CDD0069D3CE /* NSString+HTML.m */,
+				BC4B04A1186172610069D3CE /* html */,
+				BC1FE93B1861007D001248A6 /* Images */,
+				BC32D171184617120048B6D6 /* Supporting Files */,
+			);
+			path = chtml;
+			sourceTree = "<group>";
+		};
+		BC32D171184617120048B6D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC71FD7918616C0200AA7E88 /* Coocodo-Info.plist */,
+				BC32D173184617120048B6D6 /* InfoPlist.strings */,
+				BC32D176184617120048B6D6 /* main.m */,
+				BC32D179184617120048B6D6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			path = "Coocodo/Supporting Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		BC4B04A1186172610069D3CE /* html */ = {
+			isa = PBXGroup;
+			children = (
+				BC4B04951861725C0069D3CE /* css */,
+				BC4B04961861725C0069D3CE /* get.html */,
+				BC4B04971861725C0069D3CE /* img */,
+				BC4B04981861725C0069D3CE /* js */,
+				BC4B04991861725C0069D3CE /* less */,
+				BC4B049A1861725C0069D3CE /* webview.html */,
+			);
+			name = html;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC32D166184617120048B6D6 /* Coocodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC32D198184617120048B6D6 /* Build configuration list for PBXNativeTarget "Coocodo" */;
+			buildPhases = (
+				BC32D163184617120048B6D6 /* Sources */,
+				BC32D164184617120048B6D6 /* Frameworks */,
+				BC71FD7B18616CAA00AA7E88 /* ShellScript */,
+				BC32D165184617120048B6D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coocodo;
+			productName = chtml;
+			productReference = BC32D167184617120048B6D6 /* Coocodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC32D15F184617120048B6D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MX;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Milax;
+			};
+			buildConfigurationList = BC32D162184617120048B6D6 /* Build configuration list for PBXProject "Coocodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC32D15E184617120048B6D6;
+			productRefGroup = BC32D168184617120048B6D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC32D166184617120048B6D6 /* Coocodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC32D165184617120048B6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4B04A01861725C0069D3CE /* webview.html in Resources */,
+				BC4B049D1861725C0069D3CE /* img in Resources */,
+				BC71FD7818616B3E00AA7E88 /* icon.icns in Resources */,
+				BC1FE92C18610078001248A6 /* close_hover.png in Resources */,
+				BC4B049C1861725C0069D3CE /* get.html in Resources */,
+				BC71FD7C1861703700AA7E88 /* MainMenu.xib in Resources */,
+				BC4B04AD1861756F0069D3CE /* refresh@2x.png in Resources */,
+				BC1FE92D18610078001248A6 /* close_hover@2x.png in Resources */,
+				BC1FE92E18610078001248A6 /* close_regular.png in Resources */,
+				BC1FE92F18610078001248A6 /* close_regular@2x.png in Resources */,
+				BC1FE93018610078001248A6 /* fullscreen_hover.png in Resources */,
+				BC1FE93118610078001248A6 /* fullscreen_hover@2x.png in Resources */,
+				BC4B04AC1861756F0069D3CE /* refresh.png in Resources */,
+				BC1FE93218610078001248A6 /* fullscreen_regular.png in Resources */,
+				BC4B049F1861725C0069D3CE /* less in Resources */,
+				BC1FE93318610078001248A6 /* fullscreen_regular@2x.png in Resources */,
+				BC1FE93718610078001248A6 /* rollup_hover.png in Resources */,
+				BC1FE93818610078001248A6 /* rollup_hover@2x.png in Resources */,
+				BC4B049B1861725C0069D3CE /* css in Resources */,
+				BC1FE93918610078001248A6 /* rollup_regular.png in Resources */,
+				BC4B049E1861725C0069D3CE /* js in Resources */,
+				BC1FE93A18610078001248A6 /* rollup_regular@2x.png in Resources */,
+				BC32D17B184617120048B6D6 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC71FD7B18616CAA00AA7E88 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC32D163184617120048B6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1FE93418610078001248A6 /* INAppStoreWindow.m in Sources */,
+				BC32D177184617120048B6D6 /* main.m in Sources */,
+				BCCFBA95186199FE00C049E1 /* MXWebViewWindow.m in Sources */,
+				BC1FE93518610078001248A6 /* INWindowButton.m in Sources */,
+				BCC86A831862960B009D37B9 /* MXCoocodoGetClientWindow.m in Sources */,
+				BC4B04B318617CDD0069D3CE /* NSString+HTML.m in Sources */,
+				BC4B04B018617B140069D3CE /* MXHandler.m in Sources */,
+				BC1FE93618610078001248A6 /* MXWindow.m in Sources */,
+				BC32D17E184617120048B6D6 /* MXAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC32D173184617120048B6D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC32D174184617120048B6D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = Coocodo;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC32D179184617120048B6D6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC32D17A184617120048B6D6 /* en */,
+			);
+			name = Credits.rtf;
+			path = Coocodo;
+			sourceTree = SOURCE_ROOT;
+		};
+		BC32D17F184617120048B6D6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC32D180184617120048B6D6 /* Base */,
+			);
+			name = MainMenu.xib;
+			path = Coocodo;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC32D196184617120048B6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC32D197184617120048B6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC32D199184617120048B6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coocodo/Coocodo-Prefix.pch";
+				INFOPLIST_FILE = "Coocodo/Coocodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC32D19A184617120048B6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coocodo/Coocodo-Prefix.pch";
+				INFOPLIST_FILE = "Coocodo/Coocodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC32D162184617120048B6D6 /* Build configuration list for PBXProject "Coocodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC32D196184617120048B6D6 /* Debug */,
+				BC32D197184617120048B6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC32D198184617120048B6D6 /* Build configuration list for PBXNativeTarget "Coocodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC32D199184617120048B6D6 /* Debug */,
+				BC32D19A184617120048B6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC32D15F184617120048B6D6 /* Project object */;
+}
