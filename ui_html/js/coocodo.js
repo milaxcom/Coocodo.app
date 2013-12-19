@@ -31,7 +31,7 @@ get.clearme = function () {
 	$content.html("");
 };
 
-get.tmpl_item = '<div class="item"><img class="icon" src="/img/icon.svg" /><div class="text">{STRING}</div></div>';
+get.tmpl_item = '<div class="item"><img class="icon" src="img/icon.svg" /><div class="text">{STRING}</div></div>';
 
 get.add = function (str) {
 	var pos = str.indexOf("?") + 1;
