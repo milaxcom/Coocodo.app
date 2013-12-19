@@ -38,13 +38,10 @@
 }
 
 - (IBAction)didPressNewGetClient:(id)sender {
-    [_getClientWindow close];
-    [_getClientWindow makeKeyAndOrderFront:self];
     [_getClientWindow loadRequest:@"reset"];
 }
 
 - (IBAction)didPressNewWebView:(id)sender {
-    [_webViewWindow makeKeyAndOrderFront:self];
     [_webViewWindow loadRequest:@"reset"];
 }
 
