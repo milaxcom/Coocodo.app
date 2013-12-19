@@ -17,6 +17,9 @@
     
     if (self)
     {
+        self.minimizeButton = nil;
+        self.zoomButton = nil;
+        
         [_webView setUIDelegate:self];
         [_webView setEditingDelegate:self];
         [_webView setPolicyDelegate:self];
